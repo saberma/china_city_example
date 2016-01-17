@@ -1,5 +1,13 @@
 ## 省市区街道四级联选择 Rails Engine Gem 示例代码
 
+http://china-city-example.herokuapp.com/
+
+### 一键创建 Heroku App 查看效果
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+### 本地启动
+
 ```
 git clone https://github.com/saberma/china_city_example.git
 cd china_city_example
