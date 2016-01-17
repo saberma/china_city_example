@@ -1,2 +1,15 @@
-<h1>Home#page</h1>
-<p>Find me in app/views/home/page.html.erb</p>
+<div class="city-group">
+  <select class="city-select">
+    <option>--省份--</option>
+    <%= options_for_select(ChinaCity.list) %>
+  </select>
+  <select class="city-select">
+    <option>--城市--</option>
+  </select>
+  <select class="city-select">
+    <option>--地区--</option>
+  </select>
+  <select class="city-select">
+    <option>--街道--</option>
+  </select>
+</div>
