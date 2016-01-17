@@ -17,7 +17,7 @@ gem 'spring',      group: :development
 
 gem 'jquery-rails'
 gem 'coffee-rails', '~> 4.0.0'
-gem 'china_city', github: 'saberma/china_city'
+gem 'china_city', '>= 0.0.6'
 
 gem 'rails_serve_static_assets'
 
