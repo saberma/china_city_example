@@ -1,3 +1,4 @@
+<h2>选择</h2>
 <div class="city-group">
   <select class="city-select">
     <option>--省份--</option>
@@ -12,4 +13,12 @@
   <select class="city-select">
     <option>--街道--</option>
   </select>
+</div>
+
+<h2>回显</h2>
+<div class="city-group">
+  <%= select_tag "province", options_for_select(ChinaCity.list          , '440000')   , class: 'city-select', prompt: "--省份--" %>
+  <%= select_tag "city"    , options_for_select(ChinaCity.list('440000'), '440300')   , class: 'city-select', prompt: "--城市--" %>
+  <%= select_tag "district", options_for_select(ChinaCity.list('440300'), '440305')   , class: 'city-select', prompt: "--地区--" %>
+  <%= select_tag "street"  , options_for_select(ChinaCity.list('440305'), '440305007'), class: 'city-select', prompt: "--街道--" %>
 </div>
