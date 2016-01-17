@@ -19,7 +19,7 @@ gem 'jquery-rails'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'china_city', '>= 0.0.5'
 
-gem 'rails_serve_static_assets', group: [:production]
+gem 'rails_serve_static_assets'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
